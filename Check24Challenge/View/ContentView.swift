@@ -8,15 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var listVM: ListViewModel
-  
+    
     var body: some View {
         ProductListView()
     }
 }
 
 #Preview {
-   
     ContentView()
         .environmentObject(ListViewModel(networkManager: NetworkManager()))
 }

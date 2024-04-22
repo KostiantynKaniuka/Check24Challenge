@@ -13,7 +13,6 @@ struct HeaderView: View {
     @Binding var isError: Bool
     @Binding var category: ProductCategory
     
-    
     var body: some View {
         VStack(spacing: 10) {
             Picker("filters", selection: $category) {
@@ -31,7 +30,7 @@ struct HeaderView: View {
             HStack {
                 Text(productListVM.headerSection?.headerDescription ?? "Subtitle")
                     .foregroundStyle(.secondary)
-                .font(.system(size: 14))
+                    .font(.system(size: 14))
                 Spacer()
             }
         }

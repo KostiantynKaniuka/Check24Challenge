@@ -10,7 +10,7 @@ import Foundation
 final class FavouriteStorage: ObservableObject {
     private let key = "favlist"
     
-     @Published private(set) var favourites: Set<Int> = [] {
+    @Published private(set) var favourites: Set<Int> = [] {
         didSet {
             save()
         }
@@ -19,18 +19,18 @@ final class FavouriteStorage: ObservableObject {
     init() {
         load()
     }
-
+    
     private func save() {
         let favouritesArray = Array(favourites)
         UserDefaults.standard.set(favouritesArray, forKey: key)
     }
-
+    
     private func load() {
         if let favouritesArray = UserDefaults.standard.array(forKey: key) as? [Int] {
             favourites = Set(favouritesArray)
         }
     }
-
+    
     func contain(_ product: Product) -> Bool {
         favourites.contains(product.id)
     }

@@ -39,7 +39,7 @@ struct Product: Codable, Identifiable {
         let dateFormatter = DateFormatter()
         
         dateFormatter.dateFormat = "dd.MM.YYYY"
-
+        
         return dateFormatter.string(from: date)
     }
 }
@@ -53,4 +53,3 @@ struct Price: Codable {
 enum Currency: String, Codable {
     case euro = "EUR"
 }
-

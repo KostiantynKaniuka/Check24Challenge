@@ -8,10 +8,9 @@
 import Foundation
 import Combine
 
-
 final class NetworkManager {
     private var subscribers = Set<AnyCancellable>()
-
+    
     func getRequest<T: Decodable>(with url: URL, completion: @escaping (Result<T, Error>) -> Void) {
         guard let urlComponents = URLComponents(string: url.absoluteString) else { return }
         

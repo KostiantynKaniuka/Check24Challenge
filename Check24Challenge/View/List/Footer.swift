@@ -13,7 +13,7 @@ struct FooterView: View {
     var body: some View {
         NavigationLink {
             WebView(url: link.url)
-                       .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea(.all)
         } label: {
             HStack {
                 Text("© 2024 Check24")

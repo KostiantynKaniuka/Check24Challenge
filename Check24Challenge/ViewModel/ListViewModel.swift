@@ -32,8 +32,8 @@ final class ListViewModel: ObservableObject {
     
     func showProduct(in category: ProductCategory = .all) {
         isDataLoading = true
-      
-             fetchProducts(category: category)
+        
+        fetchProducts(category: category)
     }
     
     func arrangeProducts(category: ProductCategory) {
@@ -76,7 +76,7 @@ private extension ListViewModel {
                     self.headerSection = response.header
                     self.allProducts = response.products
                     self.arrangeProducts(category: category)
-          
+                    
                     print("✅")
                 }
                 return
@@ -84,7 +84,7 @@ private extension ListViewModel {
                 print(error)
                 DispatchQueue.main.async {
                     self.isDataLoading = false
-           
+                    
                     self.isError = true
                     print("❌")
                 }

@@ -14,7 +14,7 @@ struct Check24ChallengeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ProductListView()
+            ContentView()
                 .environmentObject(modelData)
                 .environmentObject(favourites)
         }
