@@ -19,6 +19,8 @@
 		E75FE4322BD671A4001BE28C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FE4312BD671A4001BE28C /* ContentView.swift */; };
 		E75FE4342BD671A6001BE28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75FE4332BD671A6001BE28C /* Assets.xcassets */; };
 		E75FE4372BD671A6001BE28C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75FE4362BD671A6001BE28C /* Preview Assets.xcassets */; };
+		E7C578E42BD68E6E00FD4F62 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578E32BD68E6E00FD4F62 /* RowViewModel.swift */; };
+		E7C578E62BD68ECE00FD4F62 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578E52BD68ECE00FD4F62 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		E75FE4312BD671A4001BE28C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E75FE4332BD671A6001BE28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75FE4362BD671A6001BE28C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7C578E32BD68E6E00FD4F62 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
+		E7C578E52BD68ECE00FD4F62 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		E75FE42E2BD671A4001BE28C /* Check24Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				E7C578E22BD68E3900FD4F62 /* ViewModel */,
 				E73635D22BD68ADF00141EE0 /* Utils */,
 				E73635D12BD68ABE00141EE0 /* Extension */,
 				E73635CC2BD68A6500141EE0 /* Network */,
@@ -119,6 +124,15 @@
 				E73635D52BD68B3800141EE0 /* ProductMockData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7C578E22BD68E3900FD4F62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7C578E32BD68E6E00FD4F62 /* RowViewModel.swift */,
+				E7C578E52BD68ECE00FD4F62 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C578E62BD68ECE00FD4F62 /* ListViewModel.swift in Sources */,
 				E73635C92BD68A3200141EE0 /* EndPoint.swift in Sources */,
 				E73635D42BD68AFA00141EE0 /* FavouriteStorage.swift in Sources */,
+				E7C578E42BD68E6E00FD4F62 /* RowViewModel.swift in Sources */,
 				E75FE4322BD671A4001BE28C /* ContentView.swift in Sources */,
 				E73635CE2BD68A7800141EE0 /* NetworkManager.swift in Sources */,
 				E73635D02BD68AAC00141EE0 /* Color.swift in Sources */,
