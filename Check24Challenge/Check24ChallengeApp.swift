@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Check24ChallengeApp: App {
+    @StateObject private var modelData = ListViewModel(networkManager: NetworkManager())
+    @StateObject private var favourites = FavouriteStorage()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductListView()
+                .environmentObject(modelData)
+                .environmentObject(favourites)
         }
     }
 }

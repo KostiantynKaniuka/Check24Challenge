@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var listVM: ListViewModel
+  
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ProductListView()
     }
 }
 
 #Preview {
+   
     ContentView()
+        .environmentObject(ListViewModel(networkManager: NetworkManager()))
 }

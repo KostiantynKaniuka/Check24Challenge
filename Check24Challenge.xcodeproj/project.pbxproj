@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E73635C42BD6899600141EE0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E73635C32BD6899600141EE0 /* SnapKit */; };
-		E73635C62BD6899600141EE0 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E73635C52BD6899600141EE0 /* SnapKit-Dynamic */; };
 		E73635C92BD68A3200141EE0 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73635C82BD68A3200141EE0 /* EndPoint.swift */; };
 		E73635CB2BD68A5000141EE0 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73635CA2BD68A5000141EE0 /* ListModel.swift */; };
 		E73635CE2BD68A7800141EE0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73635CD2BD68A7800141EE0 /* NetworkManager.swift */; };
@@ -21,6 +19,16 @@
 		E75FE4372BD671A6001BE28C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75FE4362BD671A6001BE28C /* Preview Assets.xcassets */; };
 		E7C578E42BD68E6E00FD4F62 /* RowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578E32BD68E6E00FD4F62 /* RowViewModel.swift */; };
 		E7C578E62BD68ECE00FD4F62 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578E52BD68ECE00FD4F62 /* ListViewModel.swift */; };
+		E7C578E92BD691EC00FD4F62 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578E82BD691EC00FD4F62 /* WebView.swift */; };
+		E7C578ED2BD6924F00FD4F62 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578EC2BD6924F00FD4F62 /* Header.swift */; };
+		E7C578EF2BD6927F00FD4F62 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578EE2BD6927F00FD4F62 /* Footer.swift */; };
+		E7C578F22BD692CB00FD4F62 /* AvailableProductListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578F12BD692CB00FD4F62 /* AvailableProductListRow.swift */; };
+		E7C578F52BD6930200FD4F62 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E7C578F42BD6930200FD4F62 /* Kingfisher */; };
+		E7C578F72BD6932900FD4F62 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578F62BD6932900FD4F62 /* RatingView.swift */; };
+		E7C578F92BD6937D00FD4F62 /* NotAvailableProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578F82BD6937D00FD4F62 /* NotAvailableProductRow.swift */; };
+		E7C578FB2BD693EE00FD4F62 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578FA2BD693EE00FD4F62 /* ErrorView.swift */; };
+		E7C578FD2BD6944800FD4F62 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578FC2BD6944800FD4F62 /* DetailView.swift */; };
+		E7C578FF2BD694B900FD4F62 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C578FE2BD694B900FD4F62 /* ProductListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,15 @@
 		E75FE4362BD671A6001BE28C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7C578E32BD68E6E00FD4F62 /* RowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowViewModel.swift; sourceTree = "<group>"; };
 		E7C578E52BD68ECE00FD4F62 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		E7C578E82BD691EC00FD4F62 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E7C578EC2BD6924F00FD4F62 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		E7C578EE2BD6927F00FD4F62 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		E7C578F12BD692CB00FD4F62 /* AvailableProductListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableProductListRow.swift; sourceTree = "<group>"; };
+		E7C578F62BD6932900FD4F62 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		E7C578F82BD6937D00FD4F62 /* NotAvailableProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotAvailableProductRow.swift; sourceTree = "<group>"; };
+		E7C578FA2BD693EE00FD4F62 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		E7C578FC2BD6944800FD4F62 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E7C578FE2BD694B900FD4F62 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73635C42BD6899600141EE0 /* SnapKit in Frameworks */,
-				E73635C62BD6899600141EE0 /* SnapKit-Dynamic in Frameworks */,
+				E7C578F52BD6930200FD4F62 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,13 +120,14 @@
 		E75FE42E2BD671A4001BE28C /* Check24Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				E75FE42F2BD671A4001BE28C /* Check24ChallengeApp.swift */,
+				E7C578EA2BD6923300FD4F62 /* View */,
+				E7C578E72BD691DE00FD4F62 /* WebView */,
 				E7C578E22BD68E3900FD4F62 /* ViewModel */,
 				E73635D22BD68ADF00141EE0 /* Utils */,
 				E73635D12BD68ABE00141EE0 /* Extension */,
 				E73635CC2BD68A6500141EE0 /* Network */,
 				E73635C72BD68A0800141EE0 /* Model */,
-				E75FE42F2BD671A4001BE28C /* Check24ChallengeApp.swift */,
-				E75FE4312BD671A4001BE28C /* ContentView.swift */,
 				E75FE4332BD671A6001BE28C /* Assets.xcassets */,
 				E75FE4352BD671A6001BE28C /* Preview Content */,
 			);
@@ -135,6 +152,46 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		E7C578E72BD691DE00FD4F62 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				E7C578E82BD691EC00FD4F62 /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		E7C578EA2BD6923300FD4F62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E75FE4312BD671A4001BE28C /* ContentView.swift */,
+				E7C578F02BD692B800FD4F62 /* Row */,
+				E7C578EB2BD6923C00FD4F62 /* List */,
+				E7C578FC2BD6944800FD4F62 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C578EB2BD6923C00FD4F62 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E7C578EC2BD6924F00FD4F62 /* Header.swift */,
+				E7C578EE2BD6927F00FD4F62 /* Footer.swift */,
+				E7C578FE2BD694B900FD4F62 /* ProductListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		E7C578F02BD692B800FD4F62 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				E7C578F12BD692CB00FD4F62 /* AvailableProductListRow.swift */,
+				E7C578F82BD6937D00FD4F62 /* NotAvailableProductRow.swift */,
+				E7C578FA2BD693EE00FD4F62 /* ErrorView.swift */,
+				E7C578F62BD6932900FD4F62 /* RatingView.swift */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,8 +209,7 @@
 			);
 			name = Check24Challenge;
 			packageProductDependencies = (
-				E73635C32BD6899600141EE0 /* SnapKit */,
-				E73635C52BD6899600141EE0 /* SnapKit-Dynamic */,
+				E7C578F42BD6930200FD4F62 /* Kingfisher */,
 			);
 			productName = Check24Challenge;
 			productReference = E75FE42C2BD671A4001BE28C /* Check24Challenge.app */;
@@ -184,7 +240,7 @@
 			);
 			mainGroup = E75FE4232BD671A4001BE28C;
 			packageReferences = (
-				E73635C22BD6899600141EE0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E7C578F32BD6930200FD4F62 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = E75FE42D2BD671A4001BE28C /* Products */;
 			projectDirPath = "";
@@ -212,16 +268,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C578F92BD6937D00FD4F62 /* NotAvailableProductRow.swift in Sources */,
+				E7C578FD2BD6944800FD4F62 /* DetailView.swift in Sources */,
+				E7C578F22BD692CB00FD4F62 /* AvailableProductListRow.swift in Sources */,
 				E7C578E62BD68ECE00FD4F62 /* ListViewModel.swift in Sources */,
 				E73635C92BD68A3200141EE0 /* EndPoint.swift in Sources */,
+				E7C578FB2BD693EE00FD4F62 /* ErrorView.swift in Sources */,
+				E7C578F72BD6932900FD4F62 /* RatingView.swift in Sources */,
 				E73635D42BD68AFA00141EE0 /* FavouriteStorage.swift in Sources */,
+				E7C578EF2BD6927F00FD4F62 /* Footer.swift in Sources */,
 				E7C578E42BD68E6E00FD4F62 /* RowViewModel.swift in Sources */,
+				E7C578ED2BD6924F00FD4F62 /* Header.swift in Sources */,
 				E75FE4322BD671A4001BE28C /* ContentView.swift in Sources */,
 				E73635CE2BD68A7800141EE0 /* NetworkManager.swift in Sources */,
 				E73635D02BD68AAC00141EE0 /* Color.swift in Sources */,
+				E7C578FF2BD694B900FD4F62 /* ProductListView.swift in Sources */,
 				E73635D62BD68B3800141EE0 /* ProductMockData.swift in Sources */,
 				E75FE4302BD671A4001BE28C /* Check24ChallengeApp.swift in Sources */,
 				E73635CB2BD68A5000141EE0 /* ListModel.swift in Sources */,
+				E7C578E92BD691EC00FD4F62 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,8 +426,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,9 +435,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kostiantynkaniuka.Check24Challenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,8 +459,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,9 +468,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kostiantynkaniuka.Check24Challenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -429,26 +502,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E73635C22BD6899600141EE0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		E7C578F32BD6930200FD4F62 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
+				minimumVersion = 7.11.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E73635C32BD6899600141EE0 /* SnapKit */ = {
+		E7C578F42BD6930200FD4F62 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E73635C22BD6899600141EE0 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		E73635C52BD6899600141EE0 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E73635C22BD6899600141EE0 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
+			package = E7C578F32BD6930200FD4F62 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
